@@ -3,7 +3,6 @@
   D:\Desarrollo\CUDA\ProductoMatricialCUDA\ProductoMatricialCuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Windows\Programas\VSEnterprise 2015\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "D:\Desarrollo\CUDA\ProductoMatricialCUDA\ProductoMatricialCuda\kernel.cu" 
 CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
   kernel.cu
-D:/Desarrollo/CUDA/ProductoMatricialCUDA/ProductoMatricialCuda/kernel.cu(110): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
   ProductoMatricialCuda.vcxproj -> D:\Desarrollo\CUDA\ProductoMatricialCUDA\Debug\ProductoMatricialCuda.exe
   ProductoMatricialCuda.vcxproj -> D:\Desarrollo\CUDA\ProductoMatricialCUDA\Debug\ProductoMatricialCuda.pdb (Full PDB)
   copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\Desarrollo\CUDA\ProductoMatricialCUDA\Debug\"
